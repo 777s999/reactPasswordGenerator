@@ -34,7 +34,7 @@ function App() {
   }, [length, numAllow, charAllow, passwordGenerator]);
 
   return (
-    <div className="w-full max-w-md mx-auto shadow-md rounded-lg px-4 my-8 text-orange-500 font-bold bg-gray-800">
+    <div className="w-full max-w-md mx-auto shadow-md rounded-lg px-4 my-8 text-orange-500 font-bold bg-gray-800  ">
       <h2 className="text-white text-center my-3">Password generator</h2>
       <div className="flex shadow rounded-lg overflow-hidden mb-4">
         <input
